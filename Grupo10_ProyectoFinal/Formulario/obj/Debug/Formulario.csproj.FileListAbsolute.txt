@@ -1,0 +1,16 @@
+C:\Users\ee034\source\repos\Formulario\Formulario\bin\Debug\Formulario.exe.config
+C:\Users\ee034\source\repos\Formulario\Formulario\bin\Debug\Formulario.exe
+C:\Users\ee034\source\repos\Formulario\Formulario\bin\Debug\Formulario.pdb
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.frmISSS.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.FrmPrincipal.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.exe
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.pdb
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.frmAfp.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.frmGeneral.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.frmVerAfp.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.frmVerISSS.resources
+C:\Users\ee034\source\repos\Formulario\Formulario\obj\Debug\Formulario.frmVerGeneral.resources

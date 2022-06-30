@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BAD1990-3441-49AC-A7C5-D45ADDD4DBBA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Formulario</RootNamespace>
+    <AssemblyName>Formulario</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ver.cs" />
+    <Compile Include="frmAfp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAfp.Designer.cs">
+      <DependentUpon>frmAfp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneral.Designer.cs">
+      <DependentUpon>frmGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmISSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmISSS.Designer.cs">
+      <DependentUpon>frmISSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerGeneral.Designer.cs">
+      <DependentUpon>frmVerGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerISSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerISSS.Designer.cs">
+      <DependentUpon>frmVerISSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLANILLADataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PLANILLADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmVerAfp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerAfp.Designer.cs">
+      <DependentUpon>frmVerAfp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexion.cs" />
+    <EmbeddedResource Include="frmAfp.resx">
+      <DependentUpon>frmAfp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneral.resx">
+      <DependentUpon>frmGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmISSS.resx">
+      <DependentUpon>frmISSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerAfp.resx">
+      <DependentUpon>frmVerAfp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerGeneral.resx">
+      <DependentUpon>frmVerGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerISSS.resx">
+      <DependentUpon>frmVerISSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="PLANILLADataSet.xsc">
+      <DependentUpon>PLANILLADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PLANILLADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PLANILLADataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PLANILLADataSet.xss">
+      <DependentUpon>PLANILLADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg.opdownload" />
+    <None Include="Resources\isss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isssimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
